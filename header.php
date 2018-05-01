@@ -10,4 +10,16 @@
 	<title>iconhairstudio</title>
 </head>
 <body>
+	<header>
+		<div class="header-container">
+			<div class="inner-header-container">
+				<a href="<?php echo home_url(); ?>">
+					<img src="<?php echo get_template_directory_uri(); ?>/src/images/icon_logo.png" class="logotype" alt="Bild av företagets logo med texten ICON HAIRSTUDIO">
+				</a>
+				<nav class="navigation-menu">
+					<div><?php wp_nav_menu(array('theme_location' => 'mainmenu')); ?></div>
+				</nav><!-- navigation-menu -->
+			</div><!-- .inner-header-container -->
+		</div><!-- header-container -->
+	</header>
 
