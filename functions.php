@@ -32,7 +32,7 @@ function icon_hairstudio_setup() {
 	
 	wp_enqueue_style( 'main', get_template_directory_uri() . '/dist/css/style.css', null, '1.0', 'all' );
 	// Make sure to not write http/https in googlefont link, security protocall for SSL will not work otherwise
-	wp_enqueue_style('googlefonts', '//ffonts.googleapis.com/css?family=Roboto:400,500,500i,700,700i');
+	wp_enqueue_style('googlefonts', '//fonts.googleapis.com/css?family=Roboto:400,500,500i,700,700i');
 	// Loads Javascript
 	wp_enqueue_script('main', get_template_directory_uri() . '/dist/js/bundle.js', array('jquery'), '1.0.0', true);
 	// Enables use of navigation menu.
